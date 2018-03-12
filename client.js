@@ -6,18 +6,19 @@ function readyNow(){
   $(".buttonTop").on('click',function(){
 
     console.log('hi')
+let x = array.length
+array.push($('.formInfo').data());
+    $(".output").append('<div class="formInfo">', + x + 1 ,'<br><br><button class="remove1">Remove</button><button class="changeColor">Change Color</button></div>');
 
-    $(".output").append('<div class="formInfo"><br><br><button class="remove1">Remove</button><button class="changeColor">Change Color</button></div>');
-    array.push($('.formInfo').data());
-    let x = 
-    $('.output').text()
+
+
     console.log(array);
   });
 
 $('body').on('click', '.remove1', function(){
 
   $(this).parent().remove();
-  array.splice($(this));
+
   console.log(array)
 });
 
