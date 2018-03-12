@@ -8,7 +8,7 @@ function readyNow(){
     console.log('hi')
 let x = array.length
 array.push($('.formInfo').data());
-    $(".output").append('<div class="formInfo">', + x + 1 ,'<br><br><button class="remove1">Remove</button><button class="changeColor">Change Color</button></div>');
+    $(".output").append('<div class="formInfo"><br><br><button class="remove1">Remove</button><button class="changeColor">Change Color</button></div>');
 
 
 
